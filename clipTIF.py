@@ -46,12 +46,6 @@ shp = '/anx_lagr2/caleb/SnowAlaska/Shapefiles/Alaska_102006.shp'
 start = 1980
 end = 2017
 
-# =============================================================================
-# FOR BATCH PROCESSING - GLOB PROVIDES A USEFUL UTILITY TO LOOP THROUGH 
-# DIRECTORY FILES
-# =============================================================================
-globdir = glob.glob(root + '*')
-
 for i in range(start,end,1):
     year = str(i)
 
